@@ -20,13 +20,10 @@ namespace DoctorManagement
             PopulateStatusComboBox();
         }
 
-        // ==================== Set up DataGridView Columns ====================
         private void SetupDataGridView()
         {
-            // Clear any existing columns
             guna2DataGridView1.Columns.Clear();
 
-            // Columns for Appointments
             guna2DataGridView1.Columns.Add("AppointmentID", "Appointment ID");
             guna2DataGridView1.Columns.Add("PatientName", "Patient Name");
             guna2DataGridView1.Columns.Add("AppointmentDate", "Appointment Date");
